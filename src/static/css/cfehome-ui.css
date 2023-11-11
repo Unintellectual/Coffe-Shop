@@ -551,20 +551,8 @@ video {
   position: static;
 }
 
-.absolute {
-  position: absolute;
-}
-
 .relative {
   position: relative;
-}
-
-.bottom-0 {
-  bottom: 0px;
-}
-
-.left-0 {
-  left: 0px;
 }
 
 .col-span-12 {
@@ -593,10 +581,6 @@ video {
   margin-top: 0.5rem;
 }
 
-.box-border {
-  box-sizing: border-box;
-}
-
 .block {
   display: block;
 }
@@ -621,14 +605,6 @@ video {
   display: grid;
 }
 
-.h-screen {
-  height: 100vh;
-}
-
-.h-32 {
-  height: 8rem;
-}
-
 .h-12 {
   height: 3rem;
 }
@@ -645,20 +621,8 @@ video {
   height: 2.5rem;
 }
 
-.h-60 {
-  height: 15rem;
-}
-
-.h-40 {
-  height: 10rem;
-}
-
-.h-20 {
-  height: 5rem;
-}
-
-.w-32 {
-  width: 8rem;
+.h-screen {
+  height: 100vh;
 }
 
 .w-9 {
@@ -671,10 +635,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.flex-auto {
-  flex: 1 1 auto;
 }
 
 .list-none {
@@ -729,10 +689,6 @@ video {
   border-bottom-left-radius: 0.125rem;
 }
 
-.border-4 {
-  border-width: 4px;
-}
-
 .border {
   border-width: 1px;
 }
@@ -784,16 +740,8 @@ video {
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 
-.bg-auto {
-  background-size: auto;
-}
-
 .fill-gray-300 {
   fill: #d1d5db;
-}
-
-.p-4 {
-  padding: 1rem;
 }
 
 .p-1 {
@@ -847,11 +795,6 @@ video {
   vertical-align: middle;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-\[22px\] {
   font-size: 22px;
 }
@@ -866,16 +809,17 @@ video {
   line-height: 1.5rem;
 }
 
-.text-\[30px\] {
-  font-size: 30px;
-}
-
-.font-bold {
-  font-weight: 700;
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .font-semibold {
   font-weight: 600;
+}
+
+.font-bold {
+  font-weight: 700;
 }
 
 .tracking-wide {
@@ -884,16 +828,6 @@ video {
 
 .tracking-\[1px\] {
   letter-spacing: 1px;
-}
-
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
-}
-
-.text-green-800 {
-  --tw-text-opacity: 1;
-  color: rgb(22 101 52 / var(--tw-text-opacity));
 }
 
 .text-gray-200 {
@@ -919,6 +853,11 @@ video {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .outline-none {

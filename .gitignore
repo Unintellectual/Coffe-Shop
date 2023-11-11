@@ -2,12 +2,20 @@
 __pycache__/
 *.py[cod]
 *$py.class
+<<<<<<< Updated upstream
 node_modules/
 local-cdn/
 
 # C extensions
 *.so
 
+=======
+venv/
+# C extensions
+*.so
+node_modules/
+local-cdn/
+>>>>>>> Stashed changes
 # Distribution / packaging
 .Python
 build/
