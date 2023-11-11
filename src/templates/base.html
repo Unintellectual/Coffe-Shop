@@ -1,4 +1,6 @@
 {% load static %}
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -11,18 +13,9 @@
         <link rel="stylesheet" href="{% static 'css/cfehome-ui.css' %}" />
     </head>
 <body>
-    <div id="home">
+
     {% block home %}
     {% endblock %}
-    </div>
 
-
-    <footer id="footer_content">
-    <div>
-        {% include "pages/footer_content.html" %}
-        {% block footer_content %}
-        {% endblock %}
-    </div>
-    </footer>
 </body>
 </html>
